@@ -1,6 +1,6 @@
 #!/bin/bash
 #version=latest
-version=4.2.4-1
+version=4.2.11
 #version=4.1.5-1
 
 # migrate to new version with:
@@ -28,4 +28,4 @@ docker run -d \
         -e SMALL_FILES=false \
         -p 8088:8088   -p 8043:8043   -p 27001:27001/udp   -p 27002:27002   -p 29810:29810/udp   -p 29811:29811   -p 29812:29812   -p 29813:29813  \
         -v $omadadata:/opt/tplink/OmadaController/data   -v $omadawork:/opt/tplink/OmadaController/work   -v $omadalogs:/opt/tplink/OmadaController/logs \
-        ronaldo1965/omada-sdn-controller:$version
+        cristiancel/omada-sdn-controller:$version
