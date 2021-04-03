@@ -25,7 +25,8 @@ JAVA_CMD=/usr/lib/jvm/java-8-openjdk-armhf/jre/bin/java        # Searched for in
 JAVA_OPTS="-server -Xms128m -Xmx512m -XX:MaxHeapFreeRatio=60 -XX:MinHeapFreeRatio=30 -XX:+HeapDumpOnOutOfMemoryError"
 
 # Config settings for Omada SDN Controller - don't change!
-VERSION=4.1.5 SSD=jsvc
+#VERSION=4.1.5 SSD=jsvc
+VERSION=4.2.11 SSD=jsvc
 
 # NOTE: DO NOT CHANGE THE NEXT LINE (except for the value)!
 # It is used by 'omadactl -S'.
